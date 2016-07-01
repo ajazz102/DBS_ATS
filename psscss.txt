@@ -1,0 +1,1089 @@
+@font-face {
+	font-family: Open Sans;
+	src: url('fonts/OpenSans-Regular.ttf');
+}
+
+.pss_caseparttype_visitoraddeditdetails.pss_buttonbar {
+	text-align: center;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 100px;
+	background: #fdfdfd;
+}
+
+.pss_block.pss_blockname_rfcinfoblock {
+	margin-top: 0px;
+}
+
+/* Gadget */
+.pss_content {
+	position: relative;
+	width: inherit;
+	box-shadow: none;
+	border: 0px;
+	border-radius: 6px 6px 6px 6px;
+	margin: 0px;
+margin-bottom: 30px;
+	background: #fdfdfd;6
+}
+
+/* Gadget header */
+.pss_page_header {
+	position: relative;
+	height: 56px;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	border-bottom: 1px solid #eae9e9;
+	border-radius: 6px 6px 0px 0px;
+
+	background: #f2f2f2 url('/images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px; /* Old browsers */      
+	background: url('/images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px, -moz-linear-gradient(top,  #fefefe 0%, #f2f2f2 100%); /* FF3.6+ */
+	background: url('images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: url('/images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px, -webkit-linear-gradient(top,  #fefefe 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: url('/images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px, -o-linear-gradient(top,  #fefefe 0%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: url('/images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px, -ms-linear-gradient(top,  #fefefe 0%,#f2f2f2 100%); /* IE10+ */
+	background: url('/images/icons/algemeenicoon_PSSlist.png') no-repeat 24px 14px, linear-gradient(to bottom,  #fefefe 0%,#f2f2f2 100%); /* W3C */
+}
+
+/* Gadget title */
+.pss_page_header .pss_caption {
+	color: #38698a;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+h3.pss_caption {
+	padding-left: 0px;
+}
+
+.pss_caption {
+	padding-top: 5px;
+	padding-left: 58px;
+	/*font-variant: small-caps;*/
+}
+
+.pss_fieldgroup .pss_caption {
+	border-top: 0px;
+	border-bottom: 1px solid #d6d6d6;
+	color: #929ca7;
+}
+
+/* Block (Contains lists) */
+.pss_block {
+	background: #fff;
+	margin: 0px;
+	margin-top: 20px;
+}
+
+/* List */
+.pss_table { 
+	width: 100%;
+	margin-top: 15px;
+	float: center;
+	background: #ffffff;
+}
+
+.pss_table thead tr.headers {
+	border: 1px solid #eae9e9;
+	border-radius: 6px;
+	color: #38698a;
+	line-height: 13px;
+}
+
+.pss_table thead th {
+	font-weight: normal;
+	background: #f3f3f3;
+}
+
+.pss_table tbody {
+	background: #ffffff;
+}
+
+.pss_table tbody tr {
+	background: #ffffff;
+	line-height: 13px;
+	border-bottom: 1px solid #e7e7e7;
+	color: #525a65;
+}
+
+.pss_table tbody tr.even.read_only, .pss_table tbody tr.odd.read_only {
+	background: #ffffff;
+}
+
+.pss_table tbody tr.pss_selected {
+	background: #efefef;
+	color: #38698a;
+}
+
+.pss_table tbody tr:hover{
+	background: #efefef;
+	color: #38698a;
+}
+
+.pss_blocktype_list li: {
+	background: #ffffff;
+	line-height: 13px;
+	border-bottom: 1px solid #e7e7e7;
+	color: #525a65;
+}
+.pss_blocktype_list li:hover {
+	background: #efefef;
+	color: #38698a;
+}
+
+.pss_blocktype_rowinfo {
+	background: #f6f6f6;
+}
+
+/* Navigation lists */
+.pss_navigation {
+	background-color: #fff !important;
+	height: 33px;
+}
+/*
+.pss_navigation span.pss_nav_prev {
+	content: url('images/prev_page_inactive.png');
+}
+
+.pss_navigation span.pss_nav_next {
+	content: url('images/next_page_inactive.png');
+}
+
+.pss_navigation a.pss_nav_prev:active, a.pss_nav_prev:visited, a.pss_nav_prev:link {
+	content: url('images/prev_page_active.png');
+}
+
+.pss_navigation a.pss_nav_next:active, a.pss_nav_next:visited, a.pss_nav_next:link {
+	content: url('images/next_page_active.png');
+}*/
+
+/* Helptext area */
+.pss_helptext.pss_page_helptext {
+	background: #fff;	
+}
+/* Helptext area */
+
+/* Remaining styling PSS2 */
+
+a {
+	color: #006699;
+   	text-decoration: underline;
+   	line-height: 1;
+}
+
+.pss_group{
+	background: #fff;
+	min-width: 300px;
+	width: 100%;
+}
+
+.norecords {
+	background: #fff;
+}
+
+.row_expander{
+	background: #efefef;
+	border-bottom: 1px solid transparent;
+}
+
+.pss_field_input, .pss_datepicker input, .pss_datetimepicker input, .pss_timepicker input, .pss_rfc_with_info  .pss_field_input, .pss_rfc_with_info .pss_field_value_label {
+	border-radius: 3px;
+}
+
+.pss_field_input {
+	border: 1px solid e7e7e7;
+	padding: 2px 4px;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.pss_datetimepicker .date, .pss_datetimepicker .time {
+	border: 1px solid e7e7e7;
+	border-radius: 3px;
+}
+
+.pss_blocktype_rfcinfo {
+	border: 1px solid #e7e7e7;
+	border-radius: 3px;
+}
+
+/*=====tabs top of page reservations=========*/
+/*==============*/
+
+.pss_buttonbar.pss_casepart_buttonbar {
+	background: transparent;
+	margin: 24px;
+	padding: 0px;
+} 
+
+.pss_button.pss_actiontype_tab.pss_action {
+	background-image: url(/images/unselected_unselected.png);
+	background-color: #fff;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	border: 0px;
+}
+
+.pss_button.pss_active.pss_actiontype_tab.pss_action:before { 
+	background-image: url(/images/step_unselected_yellow.png);
+	margin-left: 3px;
+}
+
+.pss_button.pss_active.pss_actiontype_tab.pss_action { 
+	background-image: url(/images/selected_unselected.png);
+	background-color: #fff;
+	border-radius: 0px;
+	color: #38698a;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.pss_button.pss_actionname_overviewtabaction.pss_actiontype_tab.pss_action{
+	background-image: url(/images/unselected_last.png);
+	background-color: #fff;
+	border-radius: 0px;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pss_button.pss_actionname_overviewtabaction.pss_active.pss_actiontype_tab.pss_action{
+	background-image: url(/images/selected_last.png);
+	background-color: #fff;
+	border-radius: 0px;
+	color: #38698a;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pss_buttonbar.pss_casepart_buttonbar {
+	background: transparent;
+}
+
+.pss_casepart_buttonbar.pss_button.pss_active {
+	background: transparent;
+}
+
+/*==============*/
+/*==============*/
+.pss_blocktype_statetransition {
+	width: 10%;
+}
+
+.pss_workflow_button_bar .pss_button {
+	background: url(/images/bg_button_blue.jpg) !important;
+    	border: 1px solid #efefef !important;
+    	border-radius: 3px !important;
+	margin: 2px 0 !important;
+	width: 150px !important;
+	height: 6px !important;
+}
+
+.pss_workflow_button_bar .pss_button span {
+	margin-top: -16px;
+}
+
+.pss_breadcrumb {
+	display: none;
+}
+
+.wicket-modal .w_content_container {
+	background: #fff;
+}
+
+div.wicket-modal div.w_content_3 {
+	border: 0px;
+}
+
+.pss_buttonbar {
+	background: transparent;
+	padding: 0px;
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.pss_button {
+	color: #fff;
+	padding: 3px 5px 4px 5px;
+}
+
+.pss_button:hover, .pss_button:active, .pss_button:visited {
+	text-decoration: none;
+}
+
+.pss_button.pss_actiontype_save {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_save:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_save span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_save span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_search {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_search:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_search span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_search span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_ok {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_ok:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_ok span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_ok span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_rfcsearchaction  {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_rfcsearchaction:hover  {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_rfcsearchaction span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_rfcsearchaction span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_back {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_back:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_back span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_cancel {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_cancel:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actiontype_cancel span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_messagescancel {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_messagescancel:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_messagescancel.pss_actionname_messagescancel.pss_action span  {
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_gotooutsidecasepart {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_gotooutsidecasepart:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_gotooutsidecasepart span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_gotocasepart {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_gotocasepart:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_gotocasepart span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_gotocasepart span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_add {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_add:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_add span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_add span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_edit {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_edit:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_edit span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_repeat {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_repeat:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_repeat span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_departed {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_departed:hover {
+background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_departed span {
+color: fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_departed span:hover {
+color: fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_delete {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_delete:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_delete span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_delete span:hover { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_arrived {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_arrived:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_arrived span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_arrived span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_registered {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_registered:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actiontype_registered span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actiontype_registered span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_cancelreservation.pss_actiontype_cancel.pss_wizard_action.pss_action {
+	background: url(/images/bg_button_grey.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_cancelreservation.pss_actiontype_cancel.pss_wizard_action.pss_action:hover {
+	background: url(/images/buttongrey_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_cancelreservation.pss_actiontype_cancel.pss_wizard_action.pss_action span { 
+	color: #464646;
+	font-size: 11px;
+	line-height: 20x;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_okdone.pss_wizard_action.pss_action.pss_actiontype_done {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_okdone.pss_wizard_action.pss_action.pss_actiontype_done:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_okdone.pss_wizard_action.pss_action.pss_actiontype_done span { 
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actionname_overviewtabgroup_okdone.pss_wizard_action.pss_action.pss_actiontype_done span:hover { 
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+
+.pss_button.pss_actionname_messagesproceed.pss_action.pss_actiontype_messagesproceed {
+	background: url(/images/bg_button_blue.jpg) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+} 
+
+.pss_button.pss_actionname_messagesproceed.pss_action.pss_actiontype_messagesproceed:hover {
+	background: url(/images/bluebutton_hover.png) repeat;
+	border: 0px;
+	border-radius: 3px;
+	margin-left: 24px;
+} 
+
+.pss_button.pss_actionname_messagesproceed.pss_action.pss_actiontype_messagesproceed span {
+	color: #fff;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+} 
+
+.pss_button.pss_actionname_messagesproceed.pss_action.pss_actiontype_messagesproceed span:hover {
+	color: #38698a;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+} 
+
+.pss_actiontype_proceed.pss_wizard_action {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+.pss_actiontype_proceed.pss_wizard_action:hover {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+.pss_actiontype_done.pss_wizard_action {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_actiontype_done.pss_wizard_action:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actionname_generaltabgroup_done.pss_wizard_action.pss_action.pss_actiontype_done {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actionname_generaltabgroup_done.pss_wizard_action.pss_action.pss_actiontype_done:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actionname_generaltabgroup_done.pss_wizard_action.pss_action.pss_disabled.pss_actiontype_done {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actionname_generaltabgroup_done.pss_wizard_action.pss_action.pss_disabled.pss_actiontype_done:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actiontype_proceed.pss_wizard_action.pss_actionname_planboardtabgroup_proceed.pss_action {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+.pss_button.pss_actiontype_proceed.pss_wizard_action.pss_actionname_planboardtabgroup_proceed.pss_action:hover {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+
+.pss_button.pss_actiontype_done.pss_wizard_action.pss_actionname_planboardtabgroup_done.pss_action {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actiontype_done.pss_wizard_action.pss_actionname_planboardtabgroup_done.pss_action:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+span.pss_button.pss_actiontype_proceed.pss_wizard_action.pss_actionname_planboardtabgroup_proceed.pss_action.pss_disabled {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+span.pss_button.pss_actiontype_proceed.pss_wizard_action.pss_actionname_planboardtabgroup_proceed.pss_action.pss_disabled:hover {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+span.pss_button.pss_actionname_planboardtabgroup_done.pss_wizard_action.pss_action.pss_disabled.pss_actiontype_done {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+span.pss_button.pss_actionname_planboardtabgroup_done.pss_wizard_action.pss_action.pss_disabled.pss_actiontype_done:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actionname_visitortabgroup_proceed.pss_actiontype_proceed.pss_wizard_action.pss_action  {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+.pss_button.pss_actionname_visitortabgroup_proceed.pss_actiontype_proceed.pss_wizard_action.pss_action:hover {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+
+.pss_button.pss_actionname_visitortabgroup_done.pss_actiontype_done.pss_wizard_action.pss_action  {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actionname_visitortabgroup_done.pss_actiontype_done.pss_wizard_action.pss_action:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+
+.pss_button.pss_actiontype_proceed.pss_actionname_cateringtabgroup_proceed.pss_wizard_action.pss_action   {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+
+}
+
+.pss_button.pss_actiontype_proceed.pss_actionname_cateringtabgroup_proceed.pss_wizard_action.pss_action:hover {
+	background: url(/images/button_grey_right.png) no-repeat right center;
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #464646;
+}
+
+
+.pss_button.pss_actiontype_done.pss_actionname_cateringtabgroup_done.pss_wizard_action.pss_action  {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_button.pss_actiontype_done.pss_actionname_cateringtabgroup_done.pss_wizard_action.pss_action:hover {
+	background-image: url(/images/button_blue_right.png);
+	border: 0px;
+	line-height: 20px;
+	float: right;
+	color: #fff;
+}
+
+.pss_caseparttype_reservationvisitorlist .pss_button.pss_actiontype_add {
+	margin-left: 0px;
+}
+
+.pss_caseparttype_knowledgebasesearchlist .pss_actionname_back {
+	margin-left: 0px;
+}
+
+.pss_caseparttype_ordersearchlist select {
+	margin-left: 24px;
+}
+
+.pss_caseparttype_ordersearchlist .pss_actiontype_add {
+	margin-left: 24px;
+}
+
+.pss_caseparttype_reservationcateringlist .pss_page_buttonbar {
+	text-align: center;
+}
+
+.pss_caseparttype_orderaddeditdetails .pss_page_buttonbar {
+	text-align: center;
+}
+
+.pss_reservation_summary {
+	 margin-top:14px !important;
+}
